@@ -24,7 +24,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        run: npm run export
+        run: npm run build
         env:
           CI: true
           NEXT_PUBLIC_BASE_PATH: "/react-sandbox" # 修改为你的仓库名称
