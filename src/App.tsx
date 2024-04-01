@@ -1,5 +1,4 @@
 import './App.css'
-import JSXDemo from './pages/jsx-demo'
 import StylesDemo from './pages/styles-demo'
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
 
   return (
     <>
-      <JSXDemo />
+      {/* <JSXDemo /> */}
       <StylesDemo />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
