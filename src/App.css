@@ -40,13 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-
-.default-external-style {
-  font-size: 20px;
-}
-.external-style-active {
-  color: #646cffaa;
-}
-.external-style-inactive {
-  color: #888;
-}
