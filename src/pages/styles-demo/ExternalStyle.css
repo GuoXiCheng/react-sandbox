@@ -1,0 +1,11 @@
+.default-external-style {
+    font-size: 50px;
+}
+
+.external-style-active {
+    color: #646cffaa;
+}
+
+.external-style-inactive {
+    color: #888;
+}
