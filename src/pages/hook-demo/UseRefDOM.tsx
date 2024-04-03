@@ -21,7 +21,7 @@ export default function UseRefDOM() {
                 <p>Open Dialog Success</p>
                 <button onClick={handleClose}>OK</button>
             </dialog>
-            <button onClick={handleOpen}>open dialog</button>
+            <button onClick={handleOpen}>Open Dialog DOM</button>
         </>
     );
 }

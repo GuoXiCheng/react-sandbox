@@ -1,5 +1,7 @@
 import UseRefBasic from "./UseRefBasic";
 import UseRefDOM from "./UseRefDOM";
+import UseRefForward from "./UseRefForward";
+import UseRefImperative from "./UseRefImperative";
 import UseStateBasic from "./UseStateBasic";
 import UseStateLazyInit from "./UseStateLazyInit";
 import UseStateObjArr from "./UseStateObjArr";
@@ -14,6 +16,8 @@ export default function HookDemo() {
             <UseStatePre />
             <UseRefBasic /> 
             <UseRefDOM />
+            <UseRefForward />
+            <UseRefImperative />
         </>
     );
 }
