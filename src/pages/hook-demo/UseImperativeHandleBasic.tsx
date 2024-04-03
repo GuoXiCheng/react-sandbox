@@ -20,7 +20,7 @@ const MyDialog = forwardRef((_, ref) => {
     );
 });
 
-export default function UseRefImperative() {
+export default function UseImperativeHandleBasic() {
     const ref = useRef<HTMLDialogElement>(null);
 
     function handleOpen() {
