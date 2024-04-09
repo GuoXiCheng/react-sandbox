@@ -6,6 +6,7 @@ import UseStateLazyInit from "./UseStateLazyInit";
 import UseStateObjArr from "./UseStateObjArr";
 import UseStatePre from "./UseStatePre";
 import UseImperativeHandleBasic from "./UseImperativeHandleBasic";
+import CustomHookWithTheme from "./CustomHookWithTheme";
 
 export default function HookDemo() {
     return (
@@ -18,6 +19,7 @@ export default function HookDemo() {
             <UseRefDOM />
             <UseRefForward />
             <UseImperativeHandleBasic />
+            <CustomHookWithTheme />
         </>
     );
 }
