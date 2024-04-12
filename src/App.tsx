@@ -1,5 +1,6 @@
 import './App.css'
 import HookDemo from './pages/hook-demo'
+import StateDemo from './pages/state-demo'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -8,7 +9,8 @@ function App() {
     <>
       {/* <JSXDemo /> */}
       {/* <StylesDemo /> */}
-      <HookDemo />
+      {/* <HookDemo /> */}
+      <StateDemo />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
