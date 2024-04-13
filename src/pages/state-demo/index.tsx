@@ -1,4 +1,4 @@
-import ContextBasic from "./ContextBasic";
+import ContextBasic from "./ContextBasicProvider";
 import ContextReplaceWithChildren from "./ContextReplaceWithChildren";
 import ContextReplaceWithProps from "./ContextReplaceWithProps";
 import CounterWithReducerContext from "./CounterWithReducerContext";

@@ -1,20 +1,6 @@
 import { useState } from "react";
 import { ContextTheme } from "./ContextTheme";
-
-function Button() {
-    return (
-        <ContextTheme.Consumer>
-            {({ theme, toggleTheme }) => (
-                <>
-                    <p>{theme}</p>
-                    <button onClick={toggleTheme}>
-                        Toggle Theme Through Context
-                    </button>
-                </>
-            )}
-        </ContextTheme.Consumer>
-    );
-}
+import Button from "./ContextBasicConsumer";
 
 function Card() {
     const cardStyle = {
@@ -29,7 +15,7 @@ function Card() {
     );
 }
 
-export default function ContextBasic() {
+export default function ContextBasicProvider() {
     const [theme, setTheme] = useState("light");
 
     function toggleTheme() {
