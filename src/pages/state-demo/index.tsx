@@ -1,3 +1,7 @@
+import ContextBasic from "./ContextBasic";
+import ContextReplaceWithChildren from "./ContextReplaceWithChildren";
+import ContextReplaceWithProps from "./ContextReplaceWithProps";
+import CounterWithReducerContext from "./CounterWithReducerContext";
 import LiftingState from "./LiftingState";
 import PropsBasic from "./PropsBasic";
 import PropsDeconstruct from "./PropsDeconstruct";
@@ -20,6 +24,10 @@ export default function StateDemo() {
             <PropsRest />
             <PropsDefault />
             <LiftingState />
+            <ContextReplaceWithProps />
+            <ContextReplaceWithChildren />
+            <ContextBasic />
+            <CounterWithReducerContext />
         </>
     );
 }
