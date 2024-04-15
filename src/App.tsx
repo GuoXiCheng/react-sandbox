@@ -1,19 +1,21 @@
 import "./App.css";
+import FormDemo from "./pages/form-demo";
 import HookDemo from "./pages/hook-demo";
 import ReduxDemo from "./pages/redux-demo";
 import StateDemo from "./pages/state-demo";
 
 function App() {
-    // const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
-    return (
-        <>
-            {/* <JSXDemo /> */}
-            {/* <StylesDemo /> */}
-            {/* <HookDemo /> */}
-            {/* <StateDemo /> */}
-            <ReduxDemo />
-            {/* <div>
+  return (
+    <>
+      {/* <JSXDemo /> */}
+      {/* <StylesDemo /> */}
+      {/* <HookDemo /> */}
+      {/* <StateDemo /> */}
+      {/* <ReduxDemo /> */}
+      <FormDemo />
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -33,8 +35,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-        </>
-    );
+    </>
+  );
 }
 
 export default App;
