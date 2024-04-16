@@ -16,7 +16,7 @@ function Page({
   );
 }
 
-export default function ChildrenWithName() {
+export default function ChildrenMultiple() {
   return (
     <Page
       header={<h1>页头</h1>}

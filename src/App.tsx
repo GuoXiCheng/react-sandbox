@@ -1,4 +1,5 @@
 import "./App.css";
+import ChildrenDemo from "./pages/children-demo";
 import FormDemo from "./pages/form-demo";
 import HookDemo from "./pages/hook-demo";
 import JSXDemo from "./pages/jsx-demo";
@@ -10,12 +11,13 @@ function App() {
 
   return (
     <>
-      <JSXDemo />
+      {/* <JSXDemo /> */}
       {/* <StylesDemo /> */}
       {/* <HookDemo /> */}
       {/* <StateDemo /> */}
       {/* <ReduxDemo /> */}
       {/* <FormDemo /> */}
+      <ChildrenDemo />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
