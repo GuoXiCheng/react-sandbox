@@ -1,6 +1,7 @@
 import "./App.css";
 import FormDemo from "./pages/form-demo";
 import HookDemo from "./pages/hook-demo";
+import JSXDemo from "./pages/jsx-demo";
 import ReduxDemo from "./pages/redux-demo";
 import StateDemo from "./pages/state-demo";
 
@@ -9,12 +10,12 @@ function App() {
 
   return (
     <>
-      {/* <JSXDemo /> */}
+      <JSXDemo />
       {/* <StylesDemo /> */}
       {/* <HookDemo /> */}
       {/* <StateDemo /> */}
       {/* <ReduxDemo /> */}
-      <FormDemo />
+      {/* <FormDemo /> */}
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
