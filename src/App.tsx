@@ -1,5 +1,6 @@
 import "./App.css";
 import ChildrenDemo from "./pages/children-demo";
+import ErrorBoundaryDemo from "./pages/error-boundary-demo";
 import FormDemo from "./pages/form-demo";
 import HookDemo from "./pages/hook-demo";
 import JSXDemo from "./pages/jsx-demo";
@@ -17,7 +18,8 @@ function App() {
       {/* <StateDemo /> */}
       {/* <ReduxDemo /> */}
       {/* <FormDemo /> */}
-      <ChildrenDemo />
+      {/* <ChildrenDemo /> */}
+      <ErrorBoundaryDemo />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
